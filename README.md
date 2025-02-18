@@ -81,7 +81,7 @@ npm run dev  # Runs in development mode with ts-node
 - **Response:** `{ requestId, status, products }`
 
 ## Postman Collection
-[Click here](#) to access the Postman collection for testing APIs.
+[Click here](https://web.postman.co/workspace/52e957f0-33d6-41be-8141-051298c4113e/request/42409766-0cf0383e-ea3a-40c8-b43c-c2e0de7f11c2) to access the Postman collection for testing APIs.
 
 ## License
 This project is licensed under the **MIT License**.
