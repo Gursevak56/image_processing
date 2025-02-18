@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build and coverage output
+dist/
+build/
+coverage/
+.out/
+.tmp/
+.esbuild/
+.nyc_output/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac
+*.DS_Store
+
+# Yarn / NPM lock files (optional, if you do not want to commit them)
+# yarn.lock
+# package-lock.json
