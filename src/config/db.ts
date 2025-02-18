@@ -2,8 +2,11 @@ import mongoose from "mongoose";
 
 // Connect to MongoDB
 
-export function mongoConnect() {
-    mongoose.connect('mongodb://localhost:27017/image_processing')
-    .then(() => console.log("Connected to MongoDB"))
-    .catch((err: any) => console.error("MongoDB connection error:", err));
+export async function mongoConnect() {
+    try {
+        await mongoose.connect('mongodb+srv://master:master123@project.x5nddwe.mongodb.net/image_processing?retryWrites=true&w=majority');
+        console.log("Connected to MongoDB");
+    } catch (err) {
+        console.error("MongoDB connection error:", err);
+    }
 }
